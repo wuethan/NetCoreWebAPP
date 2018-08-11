@@ -17,7 +17,7 @@ namespace NetCoreWebAPP.Controllers
 
         public IActionResult Index()
         {
-            var ps  = Process.GetProcesses().Select(s => s.ProcessName).ToList();
+            var ps = Process.GetProcesses().Select(s => s.ProcessName).ToList();
 
             return View(ps);
         }
