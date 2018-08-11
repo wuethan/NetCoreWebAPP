@@ -1,0 +1,18 @@
+﻿@model List<string>
+@{
+        ViewData["Title"] = "Windows 进程列表";
+}
+@{
+
+}
+
+<div class="row">
+    <select id="bca" name="abc" multiple="true" style="height:300px;width:410px;">
+        @foreach (string p in Model)
+        {
+            <option value="a">@p</option>
+        }
+
+
+    </select>
+</div>

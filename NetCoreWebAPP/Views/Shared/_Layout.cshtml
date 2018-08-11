@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="icon" type="image/x-icon" href="d.ico" />
+</head>
+<body style="background:#ebebeb">
+    <div class="container body-content" >
+        @RenderBody()
+        <hr />
+        <footer class="footer navbar-fixed-bottom" style="padding:10px; text-align:right">
+            <button onclick="javascript:location.href='Home/Exit'">关闭</button>
+        </footer>
+    </div>
+
+
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+</html>
