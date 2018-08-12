@@ -1,4 +1,4 @@
-# Net Core 2.1  GUI 原生解决方案：
+# Net Core 2.1  GUI 解决方案：
 
 概述：
 Net Core 的确很强大，它不仅可以通过本地化快速启动asp.net站点同样支持通过控制台访问系统函数，甚至是SerialPort串口开发，你可以看到
