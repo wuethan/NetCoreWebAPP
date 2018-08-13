@@ -86,7 +86,7 @@ namespace NetCoreWebAPP
             IEType.GetType().InvokeMember("Width", System.Reflection.BindingFlags.SetProperty, null, IEType, new object[] { 433 });
 
             //高
-            IEType.GetType().InvokeMember("Height", System.Reflection.BindingFlags.SetProperty, null, IEType, new object[] { 403 });
+            IEType.GetType().InvokeMember("Height", System.Reflection.BindingFlags.SetProperty, null, IEType, new object[] { 423 });
 
             //导航到指定URL
             IEType.GetType().InvokeMember("Navigate", System.Reflection.BindingFlags.InvokeMethod, null, IEType, new object[] { "http://localhost:5901/" });
